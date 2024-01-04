@@ -1,0 +1,49 @@
+.filter-column{
+    width: 25%;
+    margin-top: 30px;
+}
+.top-column{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 24px;
+    gap: 0;
+}
+.checkbox{
+    width: 22px;
+    height: 22px;
+    border: 0.917px solid var(--Text-Secondary-Text, #4D4D4D);
+    background: var(--Misc-White, #FFF);
+}
+.top-column p{
+    color: var(--Text-Text, #252020);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+hr{
+    background: #E5E5E5;
+    height: 1px;
+}
+.SingleFilter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.top-single-filter{
+    display: flex;
+    width: 100%;
+}
+.SingleFilter h4{
+    width: 100%;
+    margin: 0;
+}
+@media (max-width: 760px) {
+    .filter-column{
+        display: none;
+    }
+}

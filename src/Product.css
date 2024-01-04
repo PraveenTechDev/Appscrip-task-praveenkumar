@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  @media (max-width: 760px) {
+    .products{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 418px){
+    .products{
+      width: 100%;
+      justify-content: center;
+    }
+  }

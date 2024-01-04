@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f01dd23.css",
+    "main.js": "/static/js/main.577929d2.js",
+    "static/media/SimplonNorm-Regular.otf": "/static/media/SimplonNorm-Regular.3c29d4e6d8092e8bd69b.otf",
+    "index.html": "/index.html",
+    "main.9f01dd23.css.map": "/static/css/main.9f01dd23.css.map",
+    "main.577929d2.js.map": "/static/js/main.577929d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f01dd23.css",
+    "static/js/main.577929d2.js"
+  ]
+}

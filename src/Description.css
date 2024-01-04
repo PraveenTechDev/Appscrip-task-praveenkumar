@@ -1,0 +1,47 @@
+@font-face {
+    font-family: myFirstFont;
+    font-weight: 400;
+    src: url(Font/SimplonNorm-Regular.otf);
+  }
+.desciption{
+    width: 100%;
+}
+
+h2{
+    font-family: myFirstFont;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+p {
+    font-family: myFirstFont;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; 
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 400px;
+  }
+  @media (max-width: 760px) {
+    h2{
+      font-family: myFirstFont;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 50px;
+      letter-spacing: 1px;
+      text-align: center;
+  
+  }
+  p {
+      font-family: myFirstFont;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto; 
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 400px;
+    }
+  }
